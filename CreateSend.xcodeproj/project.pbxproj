@@ -7,6 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FCD30651A8BEA6D00AB94E4 /* CreateSend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD305A1A8BEA6D00AB94E4 /* CreateSend.framework */; };
+		4FCD306C1A8BEA6D00AB94E4 /* CreateSend_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD306B1A8BEA6D00AB94E4 /* CreateSend_iOSTests.m */; };
+		4FCD30731A8BEAC000AB94E4 /* CSAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5CA51D162846FC00558435 /* CSAuthorizationViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4FCD30741A8BEAC000AB94E4 /* CSAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5CA51E162846FC00558435 /* CSAuthorizationViewController.m */; };
+		4FCD30751A8BEAC800AB94E4 /* CSAdministrator.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F4E15DAD49F00207837 /* CSAdministrator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30761A8BEAC800AB94E4 /* CSAdministrator.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F4F15DAD49F00207837 /* CSAdministrator.m */; };
+		4FCD30771A8BEAC800AB94E4 /* CSCampaign.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A4615DD22A200CA2DE7 /* CSCampaign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30781A8BEAC800AB94E4 /* CSCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A4715DD22A200CA2DE7 /* CSCampaign.m */; };
+		4FCD30791A8BEAC800AB94E4 /* CSCampaignBouncedRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A5A15DD4A3800CA2DE7 /* CSCampaignBouncedRecipient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD307A1A8BEAC800AB94E4 /* CSCampaignBouncedRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A5B15DD4A3900CA2DE7 /* CSCampaignBouncedRecipient.m */; };
+		4FCD307B1A8BEAC800AB94E4 /* CSCampaignRecipientClicked.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A6215DD4EF900CA2DE7 /* CSCampaignRecipientClicked.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD307C1A8BEAC800AB94E4 /* CSCampaignRecipientClicked.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A6315DD4EFA00CA2DE7 /* CSCampaignRecipientClicked.m */; };
+		4FCD307D1A8BEAC800AB94E4 /* CSCampaignRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A5615DD46B400CA2DE7 /* CSCampaignRecipient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD307E1A8BEAC800AB94E4 /* CSCampaignRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A5715DD46B400CA2DE7 /* CSCampaignRecipient.m */; };
+		4FCD307F1A8BEAC800AB94E4 /* CSCampaignSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A5215DD409D00CA2DE7 /* CSCampaignSummary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30801A8BEAC800AB94E4 /* CSCampaignSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A5315DD409E00CA2DE7 /* CSCampaignSummary.m */; };
+		4FCD30811A8BEAC800AB94E4 /* CSClient.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60815C6F05800EC55BC /* CSClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30821A8BEAC800AB94E4 /* CSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60915C6F05800EC55BC /* CSClient.m */; };
+		4FCD30831A8BEAC800AB94E4 /* CSCustomField.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60C15C6F05800EC55BC /* CSCustomField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30841A8BEAC800AB94E4 /* CSCustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60D15C6F05800EC55BC /* CSCustomField.m */; };
+		4FCD30851A8BEAC800AB94E4 /* CSList.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60E15C6F05800EC55BC /* CSList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30861A8BEAC800AB94E4 /* CSList.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60F15C6F05800EC55BC /* CSList.m */; };
+		4FCD30871A8BEAC800AB94E4 /* CSPaginatedResult.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4547FE15D2E7D6008B5DC7 /* CSPaginatedResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30881A8BEAC800AB94E4 /* CSPaginatedResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4547FF15D2E7D6008B5DC7 /* CSPaginatedResult.m */; };
+		4FCD30891A8BEAC800AB94E4 /* CSPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F4A15DACA2F00207837 /* CSPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD308A1A8BEAC800AB94E4 /* CSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F4B15DACA2F00207837 /* CSPerson.m */; };
+		4FCD308B1A8BEAC800AB94E4 /* CSSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF3BC115DA9FD400DF65C4 /* CSSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD308C1A8BEAC800AB94E4 /* CSSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBF3BC215DA9FD500DF65C4 /* CSSegment.m */; };
+		4FCD308D1A8BEAC800AB94E4 /* CSSegmentRule.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF3BC515DAA0CC00DF65C4 /* CSSegmentRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD308E1A8BEAC800AB94E4 /* CSSegmentRule.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBF3BC615DAA0CC00DF65C4 /* CSSegmentRule.m */; };
+		4FCD308F1A8BEAC800AB94E4 /* CSSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B61215C6F05800EC55BC /* CSSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30901A8BEAC800AB94E4 /* CSSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B61315C6F05800EC55BC /* CSSubscriber.m */; };
+		4FCD30911A8BEAC800AB94E4 /* CSSubscriberAction.h in Headers */ = {isa = PBXBuildFile; fileRef = AB63260515DD780E0015100D /* CSSubscriberAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30921A8BEAC800AB94E4 /* CSSubscriberAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63260615DD780E0015100D /* CSSubscriberAction.m */; };
+		4FCD30931A8BEAC800AB94E4 /* CSSubscriberHistoryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8BC20D15DD7A5000EF1665 /* CSSubscriberHistoryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30941A8BEAC800AB94E4 /* CSSubscriberHistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BC20E15DD7A5000EF1665 /* CSSubscriberHistoryItem.m */; };
+		4FCD30951A8BEAC800AB94E4 /* CSSubscriberImportResult.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8BC21115DD867D00EF1665 /* CSSubscriberImportResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30961A8BEAC800AB94E4 /* CSSubscriberImportResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BC21215DD867D00EF1665 /* CSSubscriberImportResult.m */; };
+		4FCD30971A8BEAC800AB94E4 /* CSSuppressedRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A4E15DD2B3F00CA2DE7 /* CSSuppressedRecipient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30981A8BEAC800AB94E4 /* CSSuppressedRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A4F15DD2B4000CA2DE7 /* CSSuppressedRecipient.m */; };
+		4FCD30991A8BEAC800AB94E4 /* CSTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F4615DAB71000207837 /* CSTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD309A1A8BEAC800AB94E4 /* CSTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F4715DAB71000207837 /* CSTemplate.m */; };
+		4FCD309B1A8BEAC800AB94E4 /* CSWebhook.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9BD7E615D9A77F00C8268A /* CSWebhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD309C1A8BEAC800AB94E4 /* CSWebhook.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9BD7E715D9A77F00C8268A /* CSWebhook.m */; };
+		4FCD309D1A8BEAC800AB94E4 /* CSBillingDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = A315C1CB167B82C00020C198 /* CSBillingDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD309E1A8BEAC800AB94E4 /* CSBillingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A315C1CC167B82C00020C198 /* CSBillingDetails.m */; };
+		4FCD309F1A8BEAC800AB94E4 /* CSCampaignEmailClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE060716820D6400858A00 /* CSCampaignEmailClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30A01A8BEAC800AB94E4 /* CSCampaignEmailClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BE060816820D6400858A00 /* CSCampaignEmailClient.m */; };
+		4FCD30A11A8BEAC800AB94E4 /* CSListForSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = A35F7297168C61E8000BCE27 /* CSListForSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30A21A8BEAC800AB94E4 /* CSListForSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F7298168C61E8000BCE27 /* CSListForSubscriber.m */; };
+		4FCD30A31A8BEAD100AB94E4 /* CSRestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B61015C6F05800EC55BC /* CSRestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30A41A8BEAD100AB94E4 /* CSRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B61115C6F05800EC55BC /* CSRestClient.m */; };
+		4FCD30A51A8BEAD100AB94E4 /* CSAPI+Account.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60015C6F05800EC55BC /* CSAPI+Account.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30A61A8BEAD100AB94E4 /* CSAPI+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60115C6F05800EC55BC /* CSAPI+Account.m */; };
+		4FCD30A71A8BEAD100AB94E4 /* CSAPI+Campaigns.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF3BBD15DA981400DF65C4 /* CSAPI+Campaigns.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30A81A8BEAD100AB94E4 /* CSAPI+Campaigns.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBF3BBE15DA981400DF65C4 /* CSAPI+Campaigns.m */; };
+		4FCD30A91A8BEAD100AB94E4 /* CSAPI+Clients.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF3BC915DAA5C000DF65C4 /* CSAPI+Clients.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30AA1A8BEAD100AB94E4 /* CSAPI+Clients.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBF3BCA15DAA5C000DF65C4 /* CSAPI+Clients.m */; };
+		4FCD30AB1A8BEAD100AB94E4 /* CSAPI+iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5CA5211628471E00558435 /* CSAPI+iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30AC1A8BEAD100AB94E4 /* CSAPI+iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5CA5221628471E00558435 /* CSAPI+iOS.m */; };
+		4FCD30AD1A8BEAD100AB94E4 /* CSAPI+Lists.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60215C6F05800EC55BC /* CSAPI+Lists.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30AE1A8BEAD100AB94E4 /* CSAPI+Lists.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60315C6F05800EC55BC /* CSAPI+Lists.m */; };
+		4FCD30AF1A8BEAD100AB94E4 /* CSAPI+OAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC2888B15D002A7006947AE /* CSAPI+OAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30B01A8BEAD100AB94E4 /* CSAPI+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2888C15D002A7006947AE /* CSAPI+OAuth.m */; };
+		4FCD30B11A8BEAD100AB94E4 /* CSAPI+Segments.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F3215DAB0F500207837 /* CSAPI+Segments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30B21A8BEAD100AB94E4 /* CSAPI+Segments.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F3315DAB0F500207837 /* CSAPI+Segments.m */; };
+		4FCD30B31A8BEAD100AB94E4 /* CSAPI+Subscribers.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60415C6F05800EC55BC /* CSAPI+Subscribers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30B41A8BEAD100AB94E4 /* CSAPI+Subscribers.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60515C6F05800EC55BC /* CSAPI+Subscribers.m */; };
+		4FCD30B51A8BEAD100AB94E4 /* CSAPI+Templates.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F4215DAB6CE00207837 /* CSAPI+Templates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30B61A8BEAD100AB94E4 /* CSAPI+Templates.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F4315DAB6CE00207837 /* CSAPI+Templates.m */; };
+		4FCD30B71A8BEAD100AB94E4 /* CSAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60615C6F05800EC55BC /* CSAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30B81A8BEAD100AB94E4 /* CSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60715C6F05800EC55BC /* CSAPI.m */; };
+		4FCD30B91A8BEAD100AB94E4 /* CSOAuthConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6B91C015D14BF0002D7FC3 /* CSOAuthConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30BA1A8BEAD100AB94E4 /* CSOAuthConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B91C115D14BF0002D7FC3 /* CSOAuthConfig.m */; };
+		4FCD30BB1A8BEAD700AB94E4 /* CreateSend.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B5FC15C6F05800EC55BC /* CreateSend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30BC1A8BEAD700AB94E4 /* CreateSend.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BBAC15C6F0D300EC55BC /* CreateSend.m */; };
+		4FCD30BD1A8BEAD700AB94E4 /* CreateSend-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B5FD15C6F05800EC55BC /* CreateSend-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCD30BE1A8BEB2600AB94E4 /* NSURL+CSAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = AB45480D15D30D13008B5DC7 /* NSURL+CSAPI.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4FCD30BF1A8BEB2600AB94E4 /* NSURL+CSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45480E15D30D13008B5DC7 /* NSURL+CSAPI.m */; };
+		4FCD30C01A8BEB2600AB94E4 /* CSSSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB8B5C515D03E46005343D6 /* CSSSKeychain.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4FCD30C11A8BEB2600AB94E4 /* CSSSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB8B5C615D03E46005343D6 /* CSSSKeychain.m */; };
+		4FCD30C21A8BEB2600AB94E4 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = AB690BDC15645EA40093FC91 /* NSString+URLEncoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4FCD30C31A8BEB2600AB94E4 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = AB690BDD15645EA40093FC91 /* NSString+URLEncoding.m */; };
+		4FCD30C41A8BEB2600AB94E4 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = AB690BAF15644C820093FC91 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4FCD30C51A8BEB2600AB94E4 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AB690BB015644C820093FC91 /* NSData+Base64.m */; };
 		A311D492171FEE19005ECEC5 /* externalsession.json in Resources */ = {isa = PBXBuildFile; fileRef = A311D491171FEE19005ECEC5 /* externalsession.json */; };
 		A31381FD17414AE60065A113 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA6BBB815C6F19A00EC55BC /* libKiwi.a */; };
 		A315C1CD167B82C00020C198 /* CSBillingDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = A315C1CB167B82C00020C198 /* CSBillingDetails.h */; };
@@ -179,6 +264,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4FCD30661A8BEA6D00AB94E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB9122E31563E8610089DE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FCD30591A8BEA6C00AB94E4;
+			remoteInfo = "CreateSend-iOS";
+		};
 		A31381F617414AC80065A113 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABA6BBAE15C6F19A00EC55BC /* Kiwi.xcodeproj */;
@@ -224,6 +316,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FCD305A1A8BEA6D00AB94E4 /* CreateSend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CreateSend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FCD305D1A8BEA6D00AB94E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FCD305E1A8BEA6D00AB94E4 /* CreateSend-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CreateSend-iOS.h"; sourceTree = "<group>"; };
+		4FCD30641A8BEA6D00AB94E4 /* CreateSend.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateSend.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FCD306A1A8BEA6D00AB94E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FCD306B1A8BEA6D00AB94E4 /* CreateSend_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateSend_iOSTests.m; sourceTree = "<group>"; };
 		A311D491171FEE19005ECEC5 /* externalsession.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = externalsession.json; sourceTree = "<group>"; };
 		A315C1CB167B82C00020C198 /* CSBillingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CSBillingDetails.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		A315C1CC167B82C00020C198 /* CSBillingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CSBillingDetails.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -401,6 +499,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4FCD30561A8BEA6C00AB94E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FCD30611A8BEA6D00AB94E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCD30651A8BEA6D00AB94E4 /* CreateSend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9122E91563E8610089DE3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,6 +539,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FCD305B1A8BEA6D00AB94E4 /* CreateSend-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD305E1A8BEA6D00AB94E4 /* CreateSend-iOS.h */,
+				4FCD305C1A8BEA6D00AB94E4 /* Supporting Files */,
+			);
+			path = "CreateSend-iOS";
+			sourceTree = "<group>";
+		};
+		4FCD305C1A8BEA6D00AB94E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD305D1A8BEA6D00AB94E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FCD30681A8BEA6D00AB94E4 /* CreateSend-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD306B1A8BEA6D00AB94E4 /* CreateSend_iOSTests.m */,
+				4FCD30691A8BEA6D00AB94E4 /* Supporting Files */,
+			);
+			path = "CreateSend-iOSTests";
+			sourceTree = "<group>";
+		};
+		4FCD30691A8BEA6D00AB94E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD306A1A8BEA6D00AB94E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AB45480215D308AA008B5DC7 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +644,8 @@
 				ABA6B5FB15C6F05800EC55BC /* CreateSend */,
 				ABA6B62C15C6F06300EC55BC /* CreateSendTests */,
 				AB690BAD15644C820093FC91 /* Vendor */,
+				4FCD305B1A8BEA6D00AB94E4 /* CreateSend-iOS */,
+				4FCD30681A8BEA6D00AB94E4 /* CreateSend-iOSTests */,
 				AB9122EE1563E8610089DE3C /* Frameworks */,
 				AB9122ED1563E8610089DE3C /* Products */,
 			);
@@ -507,6 +656,8 @@
 			children = (
 				AB9122EC1563E8610089DE3C /* libCreateSend.a */,
 				AB9122FC1563E8620089DE3C /* CreateSendTests.octest */,
+				4FCD305A1A8BEA6D00AB94E4 /* CreateSend.framework */,
+				4FCD30641A8BEA6D00AB94E4 /* CreateSend.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -764,6 +915,55 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4FCD30571A8BEA6C00AB94E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCD30A11A8BEAC800AB94E4 /* CSListForSubscriber.h in Headers */,
+				4FCD30831A8BEAC800AB94E4 /* CSCustomField.h in Headers */,
+				4FCD307B1A8BEAC800AB94E4 /* CSCampaignRecipientClicked.h in Headers */,
+				4FCD30B31A8BEAD100AB94E4 /* CSAPI+Subscribers.h in Headers */,
+				4FCD30771A8BEAC800AB94E4 /* CSCampaign.h in Headers */,
+				4FCD30A31A8BEAD100AB94E4 /* CSRestClient.h in Headers */,
+				4FCD30991A8BEAC800AB94E4 /* CSTemplate.h in Headers */,
+				4FCD30AB1A8BEAD100AB94E4 /* CSAPI+iOS.h in Headers */,
+				4FCD30B51A8BEAD100AB94E4 /* CSAPI+Templates.h in Headers */,
+				4FCD30931A8BEAC800AB94E4 /* CSSubscriberHistoryItem.h in Headers */,
+				4FCD308B1A8BEAC800AB94E4 /* CSSegment.h in Headers */,
+				4FCD30751A8BEAC800AB94E4 /* CSAdministrator.h in Headers */,
+				4FCD30BD1A8BEAD700AB94E4 /* CreateSend-Prefix.pch in Headers */,
+				4FCD309D1A8BEAC800AB94E4 /* CSBillingDetails.h in Headers */,
+				4FCD30971A8BEAC800AB94E4 /* CSSuppressedRecipient.h in Headers */,
+				4FCD30BB1A8BEAD700AB94E4 /* CreateSend.h in Headers */,
+				4FCD30A71A8BEAD100AB94E4 /* CSAPI+Campaigns.h in Headers */,
+				4FCD30851A8BEAC800AB94E4 /* CSList.h in Headers */,
+				4FCD30891A8BEAC800AB94E4 /* CSPerson.h in Headers */,
+				4FCD30911A8BEAC800AB94E4 /* CSSubscriberAction.h in Headers */,
+				4FCD30811A8BEAC800AB94E4 /* CSClient.h in Headers */,
+				4FCD30B71A8BEAD100AB94E4 /* CSAPI.h in Headers */,
+				4FCD307F1A8BEAC800AB94E4 /* CSCampaignSummary.h in Headers */,
+				4FCD30951A8BEAC800AB94E4 /* CSSubscriberImportResult.h in Headers */,
+				4FCD309B1A8BEAC800AB94E4 /* CSWebhook.h in Headers */,
+				4FCD30A91A8BEAD100AB94E4 /* CSAPI+Clients.h in Headers */,
+				4FCD309F1A8BEAC800AB94E4 /* CSCampaignEmailClient.h in Headers */,
+				4FCD308D1A8BEAC800AB94E4 /* CSSegmentRule.h in Headers */,
+				4FCD30791A8BEAC800AB94E4 /* CSCampaignBouncedRecipient.h in Headers */,
+				4FCD30B11A8BEAD100AB94E4 /* CSAPI+Segments.h in Headers */,
+				4FCD307D1A8BEAC800AB94E4 /* CSCampaignRecipient.h in Headers */,
+				4FCD30A51A8BEAD100AB94E4 /* CSAPI+Account.h in Headers */,
+				4FCD308F1A8BEAC800AB94E4 /* CSSubscriber.h in Headers */,
+				4FCD30871A8BEAC800AB94E4 /* CSPaginatedResult.h in Headers */,
+				4FCD30AD1A8BEAD100AB94E4 /* CSAPI+Lists.h in Headers */,
+				4FCD30AF1A8BEAD100AB94E4 /* CSAPI+OAuth.h in Headers */,
+				4FCD30B91A8BEAD100AB94E4 /* CSOAuthConfig.h in Headers */,
+				4FCD30731A8BEAC000AB94E4 /* CSAuthorizationViewController.h in Headers */,
+				4FCD30C01A8BEB2600AB94E4 /* CSSSKeychain.h in Headers */,
+				4FCD30C41A8BEB2600AB94E4 /* NSData+Base64.h in Headers */,
+				4FCD30C21A8BEB2600AB94E4 /* NSString+URLEncoding.h in Headers */,
+				4FCD30BE1A8BEB2600AB94E4 /* NSURL+CSAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9122EA1563E8610089DE3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -816,6 +1016,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4FCD30591A8BEA6C00AB94E4 /* CreateSend-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FCD306D1A8BEA6D00AB94E4 /* Build configuration list for PBXNativeTarget "CreateSend-iOS" */;
+			buildPhases = (
+				4FCD30551A8BEA6C00AB94E4 /* Sources */,
+				4FCD30561A8BEA6C00AB94E4 /* Frameworks */,
+				4FCD30571A8BEA6C00AB94E4 /* Headers */,
+				4FCD30581A8BEA6C00AB94E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CreateSend-iOS";
+			productName = "CreateSend-iOS";
+			productReference = 4FCD305A1A8BEA6D00AB94E4 /* CreateSend.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FCD30631A8BEA6D00AB94E4 /* CreateSend-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FCD30701A8BEA6D00AB94E4 /* Build configuration list for PBXNativeTarget "CreateSend-iOSTests" */;
+			buildPhases = (
+				4FCD30601A8BEA6D00AB94E4 /* Sources */,
+				4FCD30611A8BEA6D00AB94E4 /* Frameworks */,
+				4FCD30621A8BEA6D00AB94E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FCD30671A8BEA6D00AB94E4 /* PBXTargetDependency */,
+			);
+			name = "CreateSend-iOSTests";
+			productName = "CreateSend-iOSTests";
+			productReference = 4FCD30641A8BEA6D00AB94E4 /* CreateSend.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AB9122EB1563E8610089DE3C /* CreateSend */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "CreateSend" */;
@@ -863,6 +1099,14 @@
 				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Campaign Monitor";
+				TargetAttributes = {
+					4FCD30591A8BEA6C00AB94E4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4FCD30631A8BEA6D00AB94E4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
 			};
 			buildConfigurationList = AB9122E61563E8610089DE3C /* Build configuration list for PBXProject "CreateSend" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -884,6 +1128,8 @@
 			targets = (
 				AB9122EB1563E8610089DE3C /* CreateSend */,
 				AB9122FB1563E8620089DE3C /* CreateSendTests */,
+				4FCD30591A8BEA6C00AB94E4 /* CreateSend-iOS */,
+				4FCD30631A8BEA6D00AB94E4 /* CreateSend-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -920,6 +1166,20 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4FCD30581A8BEA6C00AB94E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FCD30621A8BEA6D00AB94E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9122F91563E8620089DE3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1010,6 +1270,62 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4FCD30551A8BEA6C00AB94E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCD307C1A8BEAC800AB94E4 /* CSCampaignRecipientClicked.m in Sources */,
+				4FCD30881A8BEAC800AB94E4 /* CSPaginatedResult.m in Sources */,
+				4FCD30801A8BEAC800AB94E4 /* CSCampaignSummary.m in Sources */,
+				4FCD30821A8BEAC800AB94E4 /* CSClient.m in Sources */,
+				4FCD307A1A8BEAC800AB94E4 /* CSCampaignBouncedRecipient.m in Sources */,
+				4FCD30841A8BEAC800AB94E4 /* CSCustomField.m in Sources */,
+				4FCD30AC1A8BEAD100AB94E4 /* CSAPI+iOS.m in Sources */,
+				4FCD30741A8BEAC000AB94E4 /* CSAuthorizationViewController.m in Sources */,
+				4FCD30AA1A8BEAD100AB94E4 /* CSAPI+Clients.m in Sources */,
+				4FCD30921A8BEAC800AB94E4 /* CSSubscriberAction.m in Sources */,
+				4FCD308C1A8BEAC800AB94E4 /* CSSegment.m in Sources */,
+				4FCD30A41A8BEAD100AB94E4 /* CSRestClient.m in Sources */,
+				4FCD30B21A8BEAD100AB94E4 /* CSAPI+Segments.m in Sources */,
+				4FCD30781A8BEAC800AB94E4 /* CSCampaign.m in Sources */,
+				4FCD30B61A8BEAD100AB94E4 /* CSAPI+Templates.m in Sources */,
+				4FCD30BA1A8BEAD100AB94E4 /* CSOAuthConfig.m in Sources */,
+				4FCD309E1A8BEAC800AB94E4 /* CSBillingDetails.m in Sources */,
+				4FCD30901A8BEAC800AB94E4 /* CSSubscriber.m in Sources */,
+				4FCD30961A8BEAC800AB94E4 /* CSSubscriberImportResult.m in Sources */,
+				4FCD30BC1A8BEAD700AB94E4 /* CreateSend.m in Sources */,
+				4FCD308E1A8BEAC800AB94E4 /* CSSegmentRule.m in Sources */,
+				4FCD30BF1A8BEB2600AB94E4 /* NSURL+CSAPI.m in Sources */,
+				4FCD309C1A8BEAC800AB94E4 /* CSWebhook.m in Sources */,
+				4FCD30A01A8BEAC800AB94E4 /* CSCampaignEmailClient.m in Sources */,
+				4FCD309A1A8BEAC800AB94E4 /* CSTemplate.m in Sources */,
+				4FCD30761A8BEAC800AB94E4 /* CSAdministrator.m in Sources */,
+				4FCD30B81A8BEAD100AB94E4 /* CSAPI.m in Sources */,
+				4FCD307E1A8BEAC800AB94E4 /* CSCampaignRecipient.m in Sources */,
+				4FCD30A61A8BEAD100AB94E4 /* CSAPI+Account.m in Sources */,
+				4FCD308A1A8BEAC800AB94E4 /* CSPerson.m in Sources */,
+				4FCD30C51A8BEB2600AB94E4 /* NSData+Base64.m in Sources */,
+				4FCD30C31A8BEB2600AB94E4 /* NSString+URLEncoding.m in Sources */,
+				4FCD30AE1A8BEAD100AB94E4 /* CSAPI+Lists.m in Sources */,
+				4FCD30861A8BEAC800AB94E4 /* CSList.m in Sources */,
+				4FCD30A21A8BEAC800AB94E4 /* CSListForSubscriber.m in Sources */,
+				4FCD30B01A8BEAD100AB94E4 /* CSAPI+OAuth.m in Sources */,
+				4FCD30981A8BEAC800AB94E4 /* CSSuppressedRecipient.m in Sources */,
+				4FCD30B41A8BEAD100AB94E4 /* CSAPI+Subscribers.m in Sources */,
+				4FCD30941A8BEAC800AB94E4 /* CSSubscriberHistoryItem.m in Sources */,
+				4FCD30A81A8BEAD100AB94E4 /* CSAPI+Campaigns.m in Sources */,
+				4FCD30C11A8BEB2600AB94E4 /* CSSSKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FCD30601A8BEA6D00AB94E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCD306C1A8BEA6D00AB94E4 /* CreateSend_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9122E81563E8610089DE3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1082,6 +1398,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4FCD30671A8BEA6D00AB94E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FCD30591A8BEA6C00AB94E4 /* CreateSend-iOS */;
+			targetProxy = 4FCD30661A8BEA6D00AB94E4 /* PBXContainerItemProxy */;
+		};
 		A31381F717414AC80065A113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kiwi;
@@ -1106,6 +1427,148 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4FCD306E1A8BEA6D00AB94E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "CreateSend/CreateSend-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "CreateSend-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CreateSend;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FCD306F1A8BEA6D00AB94E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "CreateSend/CreateSend-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "CreateSend-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CreateSend;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FCD30711A8BEA6D00AB94E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "CreateSend-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CreateSend;
+			};
+			name = Debug;
+		};
+		4FCD30721A8BEA6D00AB94E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "CreateSend-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CreateSend;
+			};
+			name = Release;
+		};
 		AB91230E1563E8620089DE3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1220,6 +1683,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4FCD306D1A8BEA6D00AB94E4 /* Build configuration list for PBXNativeTarget "CreateSend-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FCD306E1A8BEA6D00AB94E4 /* Debug */,
+				4FCD306F1A8BEA6D00AB94E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FCD30701A8BEA6D00AB94E4 /* Build configuration list for PBXNativeTarget "CreateSend-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FCD30711A8BEA6D00AB94E4 /* Debug */,
+				4FCD30721A8BEA6D00AB94E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AB9122E61563E8610089DE3C /* Build configuration list for PBXProject "CreateSend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

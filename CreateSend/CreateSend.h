@@ -8,6 +8,8 @@
 #ifndef createsend_objc_CreateSend_h
 #define createsend_objc_CreateSend_h
 
+#import <Foundation/Foundation.h>
+
 extern NSString * const CSCreateSendVersion;
 
 #import "CSAPI.h"
