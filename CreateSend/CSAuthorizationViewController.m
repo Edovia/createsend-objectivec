@@ -81,7 +81,7 @@
     id<UIApplicationDelegate> delegate = app.delegate;
     
     if ([delegate respondsToSelector:@selector(application:openURL:sourceApplication:annotation:)]) {
-        [delegate application:app openURL:url sourceApplication:@"com.campaignmonitor.CreateSend" annotation:nil];
+        [delegate application:app openURL:url sourceApplication:@"com.campaignmonitor.CreateSend" annotation:[NSArray new]];
     } else if ([delegate respondsToSelector:@selector(application:handleOpenURL:)]) {
         [delegate application:app handleOpenURL:url];
     }
