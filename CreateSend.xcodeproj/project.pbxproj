@@ -1102,6 +1102,8 @@
 				TargetAttributes = {
 					4FCD30591A8BEA6C00AB94E4 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = F69M46B76S;
+						DevelopmentTeamName = "Edovia Inc.";
 						LastSwiftMigration = 0800;
 					};
 					4FCD30631A8BEA6D00AB94E4 = {
