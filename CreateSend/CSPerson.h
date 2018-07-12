@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CSPerson : NSObject
+@interface CMSPerson : NSObject
 @property (copy) NSString *name;
 @property (copy) NSString *emailAddress;
 @property (assign) NSUInteger accessLevel;

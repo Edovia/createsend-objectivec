@@ -379,7 +379,7 @@
  http://www.campaignmonitor.com/api/clients/#getting_client_people
  
  @param clientID The ID of the client for which the people should be retrieved
- @param completionHandler Completion callback, with an array of `CSPerson` objects as the first and only argument
+ @param completionHandler Completion callback, with an array of `CMSPerson` objects as the first and only argument
  @param errorHandler Error callback
  */
 - (void)getPeopleWithClientID:(NSString *)clientID completionHandler:(void (^)(NSArray *people))completionHandler errorHandler:(CSAPIErrorHandler)errorHandler;
@@ -391,10 +391,10 @@
  
  @param clientID The ID of the client for which the person details should be retrieved
  @param emailAddress The email address of the person whose information should be retrieved.
- @param completionHandler Completion callback, with a `CSPerson` as the only argument.
+ @param completionHandler Completion callback, with a `CMSPerson` as the only argument.
  @param errorHandler Error callback
  */
-- (void)getPersonDetailsWithClientID:(NSString *)clientID emailAddress:(NSString *)emailAddress completionHandler:(void (^)(CSPerson *person))completionHandler errorHandler:(CSAPIErrorHandler)errorHandler;
+- (void)getPersonDetailsWithClientID:(NSString *)clientID emailAddress:(NSString *)emailAddress completionHandler:(void (^)(CMSPerson *person))completionHandler errorHandler:(CSAPIErrorHandler)errorHandler;
 
 /**
  Changes the status of an active person to a deleted person. They will no longer be able to log into this client.

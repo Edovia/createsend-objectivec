@@ -7,11 +7,11 @@
 
 #import "CSPerson.h"
 
-@implementation CSPerson
+@implementation CMSPerson
 
 + (id)personWithDictionary:(NSDictionary *)personDictionary
 {
-    CSPerson *person = [[self alloc] init];
+    CMSPerson *person = [[self alloc] init];
     person.name = [personDictionary valueForKey:@"Name"];
     person.emailAddress = [personDictionary valueForKey:@"EmailAddress"];
     person.accessLevel = [[personDictionary valueForKey:@"AccessLevel"] unsignedIntegerValue];

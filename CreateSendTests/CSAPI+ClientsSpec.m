@@ -850,9 +850,9 @@ describe(@"CSAPI+Clients", ^{
             
             it(@"should get a person by email address", ^{
                 NSURLRequest *request = nil;
-                __block CSPerson *person = nil;
+                __block CMSPerson *person = nil;
                 [self stubSendAsynchronousRequestAndReturnResponseWithFixtureNamed:@"person_details.json" returningRequest:&request whileExecutingBlock:^{
-                    [cs getPersonDetailsWithClientID:clientID emailAddress:emailAddress completionHandler:^(CSPerson *response) {
+                    [cs getPersonDetailsWithClientID:clientID emailAddress:emailAddress completionHandler:^(CMSPerson *response) {
                         person = response;
                     } errorHandler:^(NSError *errorResponse) {
                         [errorResponse shouldBeNil];
@@ -871,7 +871,7 @@ describe(@"CSAPI+Clients", ^{
             it(@"should return an error if there is one", ^{
                 [self stubSendAsynchronousRequestAndReturnErrorResponseWithCode:CSAPIErrorNotFound message:CSAPIErrorNotFoundMessage whileExecutingBlock:^{
                     __block NSError *error = nil;
-                    [cs getPersonDetailsWithClientID:clientID emailAddress:emailAddress completionHandler:^(CSPerson *response) {
+                    [cs getPersonDetailsWithClientID:clientID emailAddress:emailAddress completionHandler:^(CMSPerson *response) {
                         [response shouldBeNil];
                     } errorHandler:^(NSError *errorResponse) {
                         error = errorResponse;
@@ -895,7 +895,7 @@ describe(@"CSAPI+Clients", ^{
                 }];
                 
                 [[[people should] have: 2] items];
-                CSPerson *firstPerson = [people objectAtIndex:0];
+                CMSPerson *firstPerson = [people objectAtIndex:0];
                 [[firstPerson.name should] equal:@"Person One"];
                 [[firstPerson.emailAddress should] equal:@"person1@blackhole.com"];
                 [[theValue(firstPerson.accessLevel) should] equal:theValue(31)];

@@ -308,17 +308,17 @@
     [self.restClient get:[NSString stringWithFormat:@"clients/%@/people.json", clientID] success:^(NSArray *response) {
         __block NSMutableArray *people = [[NSMutableArray alloc] initWithCapacity:response.count];
         [response enumerateObjectsUsingBlock:^(NSDictionary *personDictionary, NSUInteger idx, BOOL *stop) {
-            CSPerson *person = [CSPerson personWithDictionary:personDictionary];
+            CMSPerson *person = [CMSPerson personWithDictionary:personDictionary];
             [people addObject:person];
         }];
         if (completionHandler) completionHandler([[NSArray alloc] initWithArray:people]);
     } failure:errorHandler];
 }
 
-- (void)getPersonDetailsWithClientID:(NSString *)clientID emailAddress:(NSString *)emailAddress completionHandler:(void (^)(CSPerson *person))completionHandler errorHandler:(CSAPIErrorHandler)errorHandler
+- (void)getPersonDetailsWithClientID:(NSString *)clientID emailAddress:(NSString *)emailAddress completionHandler:(void (^)(CMSPerson *person))completionHandler errorHandler:(CSAPIErrorHandler)errorHandler
 {
     [self.restClient get:[NSString stringWithFormat:@"clients/%@/people.json?email=%@", clientID, [emailAddress cs_urlEncodedString]] success:^(NSDictionary *response) {
-        CSPerson *person = [CSPerson personWithDictionary:response];
+        CMSPerson *person = [CMSPerson personWithDictionary:response];
         if (completionHandler) completionHandler(person);
     } failure:errorHandler];
 }
