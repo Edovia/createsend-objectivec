@@ -1111,10 +1111,9 @@
 			};
 			buildConfigurationList = AB9122E61563E8610089DE3C /* Build configuration list for PBXProject "CreateSend" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = AB9122E11563E8610089DE3C;
